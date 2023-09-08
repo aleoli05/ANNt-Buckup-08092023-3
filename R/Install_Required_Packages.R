@@ -5,7 +5,7 @@
 
 
 #' @examples
-#' Install_required_packages())
+#' Install_required_packages()
 #'
 
 Install_required_packages <- function() {
