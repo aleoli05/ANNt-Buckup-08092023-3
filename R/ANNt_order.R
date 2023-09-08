@@ -19,8 +19,8 @@ ANNt_order <- function(Initial_Date_Training, Final_Date_Training, Final_Date_Te
 
 
   load("~/senario.set.rda") # Carrega objeto scenario.set
-  load("~/tickers.rda") # Carrega objeto scenario.set
-
+  #load("~/tickers.rda") # Carrega objeto scenario.set
+tickers=colnames(scenario.set)
  dados<-scenario.set
   ncoldados <- ncol(dados)
   nAtivos = ncol(dados)
